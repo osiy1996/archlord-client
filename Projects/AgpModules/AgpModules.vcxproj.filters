@@ -1,0 +1,1940 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AgpmAI2">
+      <UniqueIdentifier>{71c306d4-6f10-4a6a-b6c0-9482b0bc7dbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmAI2\소스 파일">
+      <UniqueIdentifier>{c0ce1281-63b6-440c-8ee7-6acce1f38215}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmAI2\헤더 파일">
+      <UniqueIdentifier>{b0d6ea4a-2552-450d-a441-da5424d9b580}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmAdmin">
+      <UniqueIdentifier>{be5af55f-5745-4332-8796-586ebfa76136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmAdmin\소스 파일">
+      <UniqueIdentifier>{3d07ab03-a58d-4c1b-b44c-7bd9a345967f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmAdmin\헤더 파일">
+      <UniqueIdentifier>{2bf3051f-fbef-4505-9caf-60fd6a1bdec0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmAreaChatting">
+      <UniqueIdentifier>{158e028b-0b38-4b26-8d3e-952e1a0e1d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmAreaChatting\소스 파일">
+      <UniqueIdentifier>{11604897-700e-45cb-a5a2-aa787b2f6338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmAreaChatting\헤더 파일">
+      <UniqueIdentifier>{80ed85b4-b56b-4155-ae3c-c498497b45d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmAuction">
+      <UniqueIdentifier>{b6d1415c-56c8-4356-bbff-de2984ea6313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmAuction\소스 파일">
+      <UniqueIdentifier>{aa36c688-995b-491f-9ae8-ccd27dd14840}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmAuction\헤더 파일">
+      <UniqueIdentifier>{70a671f6-3e6a-4e18-8078-758082f63e96}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmAuctionCategory">
+      <UniqueIdentifier>{9a5cd642-60ee-4741-a47b-611d27b343a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmAuctionCategory\소스 파일">
+      <UniqueIdentifier>{f3a29c1d-0454-4ed1-bc56-6f02fc8d0cc1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmAuctionCategory\헤더 파일">
+      <UniqueIdentifier>{236af28d-2b5f-41a9-8a1d-26e9b884e7f2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmBillInfo">
+      <UniqueIdentifier>{a36cef18-8e29-48b8-9eff-f29c2247c8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmBillInfo\소스 파일">
+      <UniqueIdentifier>{6a71cefa-6d46-4ca0-bdcf-0574b05b161e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmBillInfo\헤더 파일">
+      <UniqueIdentifier>{2879361b-c463-474f-b8b1-eb3c833739b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmBuddy">
+      <UniqueIdentifier>{1762d0a6-15a8-4371-b8ce-2e20c1128e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmBuddy\소스 파일">
+      <UniqueIdentifier>{1d2f0fe5-ed47-479b-82f6-3fc0de8ce01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmBuddy\헤더 파일">
+      <UniqueIdentifier>{c65b140a-e9c6-442e-a54c-209e8e75e1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCashMall">
+      <UniqueIdentifier>{daba28e9-a7a4-4103-91d8-f384ccbc82c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCashMall\소스 파일">
+      <UniqueIdentifier>{129820c0-52cc-4eab-b2a4-67dafa553d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCashMall\헤더 파일">
+      <UniqueIdentifier>{4aba6d10-74c3-47d2-b54b-05dd8d74c6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCasper">
+      <UniqueIdentifier>{bb27207e-0602-4637-8d45-f7befb79ab1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCasper\소스 파일">
+      <UniqueIdentifier>{ed19d79b-ed8d-414b-9b01-cbec1a57dc04}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmCasper\헤더 파일">
+      <UniqueIdentifier>{9c6de0fd-ab70-482d-a21f-7b1c5eb21896}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmCastle">
+      <UniqueIdentifier>{9c8fafdd-12ee-41c8-941a-9f3e9e14678a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCastle\소스 파일">
+      <UniqueIdentifier>{25f35ebf-4c8a-4ca0-8df7-a964d7f7b717}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCastle\헤더 파일">
+      <UniqueIdentifier>{e4c102af-099e-4279-9138-fdaeee2b2ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmChannel">
+      <UniqueIdentifier>{b5eb7f84-fa31-4055-b5dd-35aa60589d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmChannel\소스 파일">
+      <UniqueIdentifier>{b552fdc4-9d51-4c10-91a8-8e208be5fc4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmChannel\헤더 파일">
+      <UniqueIdentifier>{817986d0-4abd-49b8-82ad-8446e8066794}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCharacter">
+      <UniqueIdentifier>{c8091099-9179-4f82-91f1-362a64ef5b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCharacter\소스 파일">
+      <UniqueIdentifier>{d6780e54-bc31-4d9d-b48f-13f6fad5b13a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmCharacter\헤더 파일">
+      <UniqueIdentifier>{57e12fc8-9e13-4485-950f-a69d548ea225}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmChatting">
+      <UniqueIdentifier>{22f40afc-e718-4ef4-89af-1b3ff7d97ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmChatting\소스 파일">
+      <UniqueIdentifier>{b26b0862-5ed9-4a3e-aae9-95e4b91de6e0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmChatting\헤더 파일">
+      <UniqueIdentifier>{70fa4ee0-509b-4361-b331-e85433cb5d56}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmCombat">
+      <UniqueIdentifier>{097dc62f-d484-406d-9129-fa05014dc46e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmCombat\소스 파일">
+      <UniqueIdentifier>{44af91c5-2360-4fa2-80ec-cb1e6d0a4d23}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmCombat\헤더 파일">
+      <UniqueIdentifier>{23af5cbb-d849-4607-a41c-ce08753d550a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmConfig">
+      <UniqueIdentifier>{f684adde-f1ad-420d-b6e4-70885c9495c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmConfig\소스 파일">
+      <UniqueIdentifier>{eb67047e-8d2b-47a8-ac56-b523e057f75c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmConfig\헤더 파일">
+      <UniqueIdentifier>{fbdfdd89-47b2-4ca1-822d-cf2d89330f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmDropItem2">
+      <UniqueIdentifier>{40b9d016-b530-4d90-97cf-88e1916c5627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmDropItem2\소스 파일">
+      <UniqueIdentifier>{343285c8-e4f3-4dd0-8b51-b21e11f728ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmDropItem2\헤더 파일">
+      <UniqueIdentifier>{1a10f872-0315-4216-b3f7-c09f1a9d4c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventBank">
+      <UniqueIdentifier>{a9b24bb9-5896-4e9c-b1f6-094b20429ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventBank\소스 파일">
+      <UniqueIdentifier>{7e811843-b243-44b7-b7d2-2cbb88d9f6a6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventBank\헤더 파일">
+      <UniqueIdentifier>{c3d273fe-07d2-4f8a-90cb-8700e76c712d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventBinding">
+      <UniqueIdentifier>{4ee4b6bf-bed8-4555-8ced-082e1e7cc30a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventBinding\소스 파일">
+      <UniqueIdentifier>{c43f6b3b-3252-4461-8c22-37c137b1cb55}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventBinding\헤더 파일">
+      <UniqueIdentifier>{1f2ebc47-7263-4181-9788-4331623428c1}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventCharCustomize">
+      <UniqueIdentifier>{1d41b174-7c7d-42fe-b3c9-f2830884ce25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventCharCustomize\소스 파일">
+      <UniqueIdentifier>{756081f8-d754-458e-b51b-97624ba5fa06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventCharCustomize\헤더 파일">
+      <UniqueIdentifier>{dde3d78c-adad-487f-ab49-75eb9bdfa8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventFactors">
+      <UniqueIdentifier>{b7cd00e5-33fb-4f5c-871c-ba870b9cd08d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventFactors\소스 파일">
+      <UniqueIdentifier>{498a98a9-dd4a-4a90-a719-04a40e96a4a6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventFactors\헤더 파일">
+      <UniqueIdentifier>{a274e6cc-5759-47f6-896a-04cedc106d45}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventGuild">
+      <UniqueIdentifier>{7b2bb6e8-f08d-442f-97fb-00660476e1dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventGuild\소스 파일">
+      <UniqueIdentifier>{4fe20e8a-db52-42da-80ba-f90aecc9c864}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventGuild\헤더 파일">
+      <UniqueIdentifier>{5ef6a79d-4969-449d-b9df-32802679a05d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventItemConvert">
+      <UniqueIdentifier>{9854cf48-bdc7-4440-8f25-4bf18731ec3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventItemConvert\소스 파일">
+      <UniqueIdentifier>{07399242-e09a-4463-a1a6-4e0e3c2d34f8}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventItemConvert\헤더 파일">
+      <UniqueIdentifier>{36748575-c83a-411a-b483-28aa5dba1895}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventItemRepair">
+      <UniqueIdentifier>{58c0d8d5-6e48-4027-a51a-9d12af6208e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventItemRepair\소스 파일">
+      <UniqueIdentifier>{0de19abb-9a15-424d-bc25-6c5406838b87}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventItemRepair\헤더 파일">
+      <UniqueIdentifier>{58d2ee08-43d0-4304-bbf4-83346509dc59}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventNPCDialog">
+      <UniqueIdentifier>{01da4b19-c209-4dfd-9eaf-5cd16ddda0ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventNPCDialog\소스 파일">
+      <UniqueIdentifier>{e8c59906-0b9c-4802-8f8a-0e9a74a24946}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventNPCDialog\헤더 파일">
+      <UniqueIdentifier>{cff1f2ba-2461-4f6f-971a-7676c3d3986c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventNPCTrade">
+      <UniqueIdentifier>{5c169f73-0b98-4fe3-a8df-290645ffe7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventNPCTrade\소스 파일">
+      <UniqueIdentifier>{3d54b319-35c5-48e8-a0d6-f368ae75426c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventNPCTrade\헤더 파일">
+      <UniqueIdentifier>{4b3bf48d-4138-4540-b2ac-cf65e7655623}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventNature">
+      <UniqueIdentifier>{caa986d5-55f5-408b-ac9d-4b96edacad34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventNature\소스 파일">
+      <UniqueIdentifier>{0fe00e48-2961-45cf-8a34-8e927f1227ac}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventNature\헤더 파일">
+      <UniqueIdentifier>{b094c131-af5d-4cea-8af0-fd9b4bffabab}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventPointLight">
+      <UniqueIdentifier>{3500f972-b14b-415b-8bd3-87a2cdfb1ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventProduct">
+      <UniqueIdentifier>{f3b31afe-f136-4137-9d1a-cf4be12556d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventProduct\소스 파일">
+      <UniqueIdentifier>{66dc9757-7558-4792-9fa3-3fd04a6ae5db}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventProduct\헤더 파일">
+      <UniqueIdentifier>{506d2719-f03d-4949-b3c0-050ed0e4ae62}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventQuest">
+      <UniqueIdentifier>{49e48de8-a90b-4a05-bd02-21cf2e0a9880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventQuest\소스 파일">
+      <UniqueIdentifier>{e4ba3018-9e38-480f-9199-54ae54c15ad3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventQuest\헤더 파일">
+      <UniqueIdentifier>{0a801c8f-1a40-4eb6-890a-4b5e17c5644e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventRefinery">
+      <UniqueIdentifier>{a7a38e4d-d1df-48ba-8fa9-2a05a7cd1aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventRefinery\헤더 파일">
+      <UniqueIdentifier>{996f174f-3664-4c9a-a6de-243c2e842116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventRefinery\소스 파일">
+      <UniqueIdentifier>{9399352e-d68c-45d1-961f-1ae3c7e7ccb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventSkillMaster">
+      <UniqueIdentifier>{3e17ed8a-c06e-4a88-920f-1503918b0546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventSkillMaster\소스 파일">
+      <UniqueIdentifier>{09225c41-651a-439f-8558-52f4ce93551a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventSkillMaster\헤더 파일">
+      <UniqueIdentifier>{8205e8bd-87c8-43f7-b154-bd67c28875bf}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventSpawn">
+      <UniqueIdentifier>{321a0812-5f6a-43a5-afe0-2217cf13c5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventSpawn\소스 파일">
+      <UniqueIdentifier>{d6295651-6725-449b-adbc-b0c8bd340bfd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventSpawn\헤더 파일">
+      <UniqueIdentifier>{561df5ca-4713-429c-b9fd-5ef3d8880dad}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventTeleport">
+      <UniqueIdentifier>{9c11a9f8-a01b-4836-ad50-9feaa2ce3591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventTeleport\소스 파일">
+      <UniqueIdentifier>{46ea9a52-8227-4e5e-90e4-9fdd2770591d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmEventTeleport\헤더 파일">
+      <UniqueIdentifier>{53016242-480f-4009-bcf0-7470bb6ef2a6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmFactors">
+      <UniqueIdentifier>{7765538b-19a6-4014-8d40-c816af7e37d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmFactors\소스 파일">
+      <UniqueIdentifier>{980f78d7-8449-4153-8654-762b0e0efd4f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmFactors\헤더 파일">
+      <UniqueIdentifier>{b48c3c86-1056-410d-95c4-3f34adedc290}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmGrid">
+      <UniqueIdentifier>{6c103f5d-187d-49f2-9d98-b4d8f1119600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGrid\소스 파일">
+      <UniqueIdentifier>{685baf1a-7b82-4330-9c0b-152609b95ae5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmGrid\헤더 파일">
+      <UniqueIdentifier>{d3987ae7-c053-4129-9ce1-5a654aa73e9a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmGuild">
+      <UniqueIdentifier>{3695d614-a4ba-47b1-a3a4-c0ff9611e48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGuild\소스 파일">
+      <UniqueIdentifier>{14d53c60-e97c-4af8-a06e-b1c72763eea5}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmGuild\헤더 파일">
+      <UniqueIdentifier>{7253d854-59ba-44e7-9996-997ea5f23669}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmItem">
+      <UniqueIdentifier>{98d3c71f-4e9d-4cff-8b04-c2d2bf48e8c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmItem\소스 파일">
+      <UniqueIdentifier>{20a5b8f8-8dd2-47c6-aaae-61f004dcca02}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmItem\헤더 파일">
+      <UniqueIdentifier>{7c683f4a-8471-46d5-9bcc-537510a4821b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmItemConvert">
+      <UniqueIdentifier>{c56ce880-0d4a-4e15-b35a-5782acff59e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmItemConvert\소스 파일">
+      <UniqueIdentifier>{f9b7d534-c44f-4c97-838e-3d0521f82987}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmItemConvert\헤더 파일">
+      <UniqueIdentifier>{d23071cf-9019-4ddb-937c-818752affb84}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmLog">
+      <UniqueIdentifier>{304d1043-dec1-49c5-a2cb-007d817499f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmLog\소스 파일">
+      <UniqueIdentifier>{c8820e3e-b4cb-48fd-9e6a-d77f6df93c18}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmLog\헤더 파일">
+      <UniqueIdentifier>{b1954093-668a-4724-ada8-8b9f025b30b0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmLogin">
+      <UniqueIdentifier>{52e0bc62-4c2c-44ab-bab6-4e553e78b384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmLogin\소스 파일">
+      <UniqueIdentifier>{32344f2e-7815-49cc-be09-259b2dd5dff1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmLogin\헤더 파일">
+      <UniqueIdentifier>{1d832392-0d78-4892-a418-3b58a3cda643}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmMailBox">
+      <UniqueIdentifier>{a1385201-ece8-4ee4-9065-2640c2e3ca5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmMailBox\소스 파일">
+      <UniqueIdentifier>{ca46bc6e-6d87-4405-aed4-c2c364e35251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmMailBox\헤더 파일">
+      <UniqueIdentifier>{aa64078f-0d18-4222-a530-99f14ba08f64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmOptimizedPacket2">
+      <UniqueIdentifier>{af495983-9629-4378-9ddf-989ac71ae330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmOptimizedPacket2\소스 파일">
+      <UniqueIdentifier>{0acf3830-7d11-4935-a52c-2da7ea21c13d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmOptimizedPacket2\헤더 파일">
+      <UniqueIdentifier>{cbda8faa-9ad7-4616-8137-d0afa9f2dce2}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmParty">
+      <UniqueIdentifier>{bf81fdea-e2b8-4070-8510-1207bc19e8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmParty\소스 파일">
+      <UniqueIdentifier>{2d69348b-bd53-4bfa-b155-080d71d6ce6f}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmParty\헤더 파일">
+      <UniqueIdentifier>{b2ca579a-2201-4111-9bff-4f056f84973e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmPathFind">
+      <UniqueIdentifier>{9cded908-eed5-447a-9918-1743536f9ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmPathFind\소스 파일">
+      <UniqueIdentifier>{4fd84af6-4470-4ffc-b96f-f324c7574f6a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmPathFind\헤더 파일">
+      <UniqueIdentifier>{8c7e6440-7f3d-4584-8432-f70c876e4b52}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmProduct">
+      <UniqueIdentifier>{61346e56-a69a-40cb-a60f-6dad681de426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmProduct\소스 파일">
+      <UniqueIdentifier>{3ebfe7b0-f3f3-4a6f-a0b0-cc48aebfe3a3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmProduct\헤더 파일">
+      <UniqueIdentifier>{6c300ba1-b101-4ca1-b40b-e64c786bcf39}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmPvP">
+      <UniqueIdentifier>{15f87804-fdf1-4241-bb23-0cff4db407af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmPvP\소스 파일">
+      <UniqueIdentifier>{f7d04558-3a29-4692-9cb0-5c2ab222d4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmPvP\헤더 파일">
+      <UniqueIdentifier>{48523e6a-7cad-40cc-a189-48da78eb837d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmQuest">
+      <UniqueIdentifier>{de96ca4b-3926-457e-ae76-900d7bca90ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmQuest\소스 파일">
+      <UniqueIdentifier>{9aa6bc99-d221-43c7-8489-6048a25327fe}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmQuest\헤더 파일">
+      <UniqueIdentifier>{0a502339-2fbc-422c-ab3f-343714689b9a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmRecruit">
+      <UniqueIdentifier>{cd8b6181-b493-4335-8632-d116780eac5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRecruit\소스 파일">
+      <UniqueIdentifier>{4c840f7e-4509-41bd-9917-407c15b29961}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmRecruit\헤더 파일">
+      <UniqueIdentifier>{3fb3f05b-da0f-4aa5-aa75-86de67703b44}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmRefinery">
+      <UniqueIdentifier>{56706f5b-974e-467f-8eef-6abcedf84c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRefinery\헤더 파일">
+      <UniqueIdentifier>{56ec0d87-66e1-4cd3-a0a9-66af8958ac4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRefinery\소스 파일">
+      <UniqueIdentifier>{7c6a4402-d6e5-4b63-b004-34367fc501db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRemission">
+      <UniqueIdentifier>{0977ebc8-2ea7-4b30-b825-2b015f515099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRemission\소스 파일">
+      <UniqueIdentifier>{eb5affa7-480f-4afc-87b5-39a7691eca58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRemission\헤더 파일">
+      <UniqueIdentifier>{0708beb4-dbd0-4ec9-9030-71277f6e5ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmResourceInfo">
+      <UniqueIdentifier>{5cb4140b-c8f0-4074-aff8-fbe855afbad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmResourceInfo\소스 파일">
+      <UniqueIdentifier>{aa70e993-dc73-4f6e-9fb6-f6f11e2287e7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmResourceInfo\헤더 파일">
+      <UniqueIdentifier>{d193bf1a-20eb-4c98-9796-d15fdc4c8b56}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmRide">
+      <UniqueIdentifier>{efc0bb6c-0bfa-4ce7-b698-04492aaa912f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRide\소스 파일">
+      <UniqueIdentifier>{991aef54-fb3a-4928-af49-a5cc60a01c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmRide\헤더 파일">
+      <UniqueIdentifier>{43e56ea2-56d8-4e4d-b652-fc38ec3fcb85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmScript">
+      <UniqueIdentifier>{154fad54-362c-48e5-b85a-77e89a12a0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmScript\소스 파일">
+      <UniqueIdentifier>{f0e83e9b-9ec9-4840-a88c-8b270127d39c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmScript\헤더 파일">
+      <UniqueIdentifier>{9280f79b-11b6-4b74-94a4-d8bdece6733b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmShrine">
+      <UniqueIdentifier>{f1bd0d03-a69c-4b32-8685-af877d017e90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmShrine\소스 파일">
+      <UniqueIdentifier>{0a16bce6-0c46-465a-9162-45d3ad81ca3b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmShrine\헤더 파일">
+      <UniqueIdentifier>{bc66fec5-0213-4693-a041-7941257251ed}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmSiegeWar">
+      <UniqueIdentifier>{355e0788-da44-4893-8d89-3a0b3778ffd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSiegeWar\소스 파일">
+      <UniqueIdentifier>{1c397a6c-566a-489d-b462-89cc81a75d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSiegeWar\헤더 파일">
+      <UniqueIdentifier>{7c747fa8-851d-4a0c-8b9d-a56b5b81854f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSkill">
+      <UniqueIdentifier>{da04be2d-4687-46de-8396-6d975e581786}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSkill\소스 파일">
+      <UniqueIdentifier>{d0b44773-41ab-4e97-9237-8b4f4fb1914d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmSkill\헤더 파일">
+      <UniqueIdentifier>{7cedbcbb-c654-439b-87ad-226144bac0ad}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmSummons">
+      <UniqueIdentifier>{d6ca5216-f142-4b21-9007-a0e907f54e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSummons\소스 파일">
+      <UniqueIdentifier>{3106a1d3-4d64-4fcf-947f-0696aaf1a335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSummons\헤더 파일">
+      <UniqueIdentifier>{374a9a0a-e420-4c91-a814-907a4b86c634}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSystemMessage">
+      <UniqueIdentifier>{e243a498-feea-4af5-a711-5ec5be051605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSystemMessage\소스 파일">
+      <UniqueIdentifier>{f44c7d06-050b-480f-9b77-926116ee8791}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSystemMessage\헤더 파일">
+      <UniqueIdentifier>{77cf0c85-74bf-48dc-9da8-5b75170c75cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmTimer">
+      <UniqueIdentifier>{28d032a1-c111-4a68-a9cb-be786d0fa9b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmTimer\소스 파일">
+      <UniqueIdentifier>{d6c1541c-5c92-4ce2-98f5-2d949ee73fa7}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmTimer\헤더 파일">
+      <UniqueIdentifier>{b8cf737e-48e2-4736-8867-f66bd4a9f67b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmUIStatus">
+      <UniqueIdentifier>{cae6bc8b-8ea4-4995-aaed-0e150d8bfb09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmUIStatus\소스 파일">
+      <UniqueIdentifier>{6316df4e-fea7-4686-a700-2aa3b486a429}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmUIStatus\헤더 파일">
+      <UniqueIdentifier>{72d658cc-b869-4fc3-9548-03bf2317e072}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmUnion">
+      <UniqueIdentifier>{b4a8cbcd-c8c9-4126-9fc5-f6f81fb15972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmUnion\소스 파일">
+      <UniqueIdentifier>{fc1c378f-dd15-40d1-8c85-9f55805d9fbc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmUnion\헤더 파일">
+      <UniqueIdentifier>{32efaf48-340b-479a-a69e-93a05c11fd42}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmWorld">
+      <UniqueIdentifier>{67fffc18-79a7-4abe-a71a-e5c8c91eba34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmWorld\소스 파일">
+      <UniqueIdentifier>{365d3564-34a5-40bf-8699-89e883d950fc}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmWorld\헤더 파일">
+      <UniqueIdentifier>{d14a7d9e-eaae-4936-aa94-c5f7e8de5ecb}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ApmFactors">
+      <UniqueIdentifier>{20b71af0-6577-4800-93be-a63db0e7d33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmFactors\소스 파일">
+      <UniqueIdentifier>{bad3caf8-0a7a-440b-b15f-405941931e5b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ApmFactors\헤더 파일">
+      <UniqueIdentifier>{f531b214-9ea3-4378-84bc-8f78e0252ae4}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ApmMap">
+      <UniqueIdentifier>{15ff120e-7a71-414b-8250-def289c3557c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmMap\소스 파일">
+      <UniqueIdentifier>{dc79de20-1a0f-4898-97ff-aa8022919fc0}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ApmMap\헤더 파일">
+      <UniqueIdentifier>{11b7e8b3-142c-4473-8c3f-c1d500e36c20}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ApmMap\OTree">
+      <UniqueIdentifier>{16c2ae1e-5cf2-4b13-8385-f7c32e10f7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmMap\MagPack">
+      <UniqueIdentifier>{5e7a97b9-ba34-424d-a889-342fe91c3089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmObject">
+      <UniqueIdentifier>{fffb796b-34aa-4eca-bf8f-c231429ad3f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmObject\소스 파일">
+      <UniqueIdentifier>{91e67c89-9735-4cfc-a7fd-bbab3a95b7d6}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ApmObject\헤더 파일">
+      <UniqueIdentifier>{8fbd8673-2efd-440f-9445-ec15c860051d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="ApmOcTree">
+      <UniqueIdentifier>{d4e9af72-b185-45b0-80e5-3747740b7827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmOcTree\소스 파일">
+      <UniqueIdentifier>{5de2da62-9d72-47ae-b3ac-a5946d9fbf60}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ApmOcTree\헤더 파일">
+      <UniqueIdentifier>{0b80b8de-d3be-412b-a9bd-54cfbb28f1e9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmReturnToLogin">
+      <UniqueIdentifier>{3dc53a6c-ea90-4ca3-8bb6-3f6e21da9a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmReturnToLogin\소스 파일">
+      <UniqueIdentifier>{92bf0df5-d1d0-4a51-a727-a0d638f13b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmReturnToLogin\헤더 파일">
+      <UniqueIdentifier>{1c66c356-bcad-4b57-907a-e826bbbe69f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmWantedCriminal">
+      <UniqueIdentifier>{e7d0b5ea-0ad9-41c9-9aa9-e39fd97a1d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmWantedCriminal\소스 파일">
+      <UniqueIdentifier>{fe3e555d-95e0-4446-9d3a-7a67ec2c6c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmWantedCriminal\헤더 파일">
+      <UniqueIdentifier>{8f09eda0-c13d-4315-8fa0-d6bf5e665bb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmNatureEffect">
+      <UniqueIdentifier>{42d32a7a-8a9c-414a-bacf-507a5bf3c6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmStartupEncryption">
+      <UniqueIdentifier>{33054c89-5c02-4a36-b3a3-242abb01e258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmStartupEncryption\소스 파일">
+      <UniqueIdentifier>{6bc4414f-676a-4a97-8981-db8b04c7eaf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmStartupEncryption\헤더 파일">
+      <UniqueIdentifier>{4c3a13b3-6d22-4115-919e-259c1d28810e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventSiegeWarNPC">
+      <UniqueIdentifier>{b1092086-f31b-4cc2-a780-e592d7488611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventSiegeWarNPC\소스 파일">
+      <UniqueIdentifier>{51f236cf-6d28-47d9-85b5-b7ee2eb50ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventSiegeWarNPC\헤더 파일">
+      <UniqueIdentifier>{b2750dbc-4b11-4675-8ca9-b846f4b8bbb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApText">
+      <UniqueIdentifier>{07ffc089-6c8a-43e8-84ed-7f9be57be8c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSearch">
+      <UniqueIdentifier>{0067bbb8-dd76-4efb-89b8-ea64f82e45db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSearch\헤더 파일">
+      <UniqueIdentifier>{9f63ce0e-6eee-47bc-aeed-479c3c8229c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmSearch\소스 파일">
+      <UniqueIdentifier>{2dd99e04-8f4c-40ba-9084-d98dcf1fed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmTax">
+      <UniqueIdentifier>{f9dd54a8-6909-44f8-931d-5de9a29c3427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmTax\헤더 파일">
+      <UniqueIdentifier>{f0db1479-0139-48a2-88af-c16e484b1361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmTax\소스 파일">
+      <UniqueIdentifier>{d2f29482-0fe2-4423-b337-7d614ac7ee49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGuildWarehouse">
+      <UniqueIdentifier>{3f5f18f9-365b-4235-96eb-e3eaa01f5747}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGuildWarehouse\헤더 파일">
+      <UniqueIdentifier>{cca82ca3-0147-4c8a-9dff-352c4937c2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGuildWarehouse\소스 파일">
+      <UniqueIdentifier>{aeef0e58-d66e-4913-a655-ba1be954826d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmArchlord">
+      <UniqueIdentifier>{f1ef38be-79a4-40dd-b021-aa0ffa676f69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmArchlord\헤더 파일">
+      <UniqueIdentifier>{e38558f6-6883-4e37-8070-9665eedef5d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmArchlord\소스 파일">
+      <UniqueIdentifier>{1ae42af8-9ec7-4392-b69d-53f8c49da19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGamble">
+      <UniqueIdentifier>{348f3d5c-b95d-4a33-bd24-b2314b21fc29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGamble\소스 파일">
+      <UniqueIdentifier>{431a674d-71ac-4cea-a7b7-fd30192d5f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGamble\헤더 파일">
+      <UniqueIdentifier>{bd1e5edf-c046-4326-91b5-1b065782d1a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEventGacha">
+      <UniqueIdentifier>{53495b0e-2b1c-4880-9332-c58ec297bfd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmBattleGround">
+      <UniqueIdentifier>{a9455b72-dd1e-4179-98bf-449d170809ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmEventManager">
+      <UniqueIdentifier>{16635add-d11c-4c34-87fd-4f351ccc7199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApmEventManager\소스 파일">
+      <UniqueIdentifier>{0038f9a0-bfcc-4eeb-aa95-fcfac3b72d8c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ApmEventManager\헤더 파일">
+      <UniqueIdentifier>{754e6522-e361-4c1d-806e-fbadae01f5c7}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmTransform">
+      <UniqueIdentifier>{7418e698-b1d2-4b2f-bf0c-d13fdb795573}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEpicZone">
+      <UniqueIdentifier>{1c307b29-b2ca-4dda-bf1a-aea5ed43e91c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEpicZone\소스 파일">
+      <UniqueIdentifier>{267e9f0a-6745-43c8-8d7f-d1437eb93fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmEpicZone\헤더 파일">
+      <UniqueIdentifier>{c8c30f0c-571c-4f97-81bf-5c4b814efba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmMonsterPath">
+      <UniqueIdentifier>{0e00a71a-6f40-4d89-a72c-3f1176ffb964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmMonsterPath\헤더 파일">
+      <UniqueIdentifier>{586210b5-822f-4bae-87b9-39b8c95051d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmMonsterPath\소스 파일">
+      <UniqueIdentifier>{5c5b6850-5d8c-4276-a92a-a2324b9ea0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agpmTitle">
+      <UniqueIdentifier>{289ce39a-e2a0-459d-b72b-d9678a57f730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agpmTitle\source">
+      <UniqueIdentifier>{4d025c54-0c0f-46d5-b575-fa6784d2c678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agpmTitle\header">
+      <UniqueIdentifier>{4119af12-6704-4d67-8a3d-83acf0ff658c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmPathManager">
+      <UniqueIdentifier>{afa8f1f9-f46a-429b-aec6-020347acb736}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmDropItem">
+      <UniqueIdentifier>{1fa415f9-affb-4dd3-a10f-e563ddba3ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmDropItem\소스 파일">
+      <UniqueIdentifier>{a34892e3-bfa7-49df-b1b7-c99555b74e68}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AgpmDropItem\헤더 파일">
+      <UniqueIdentifier>{bd0f09f4-7ab4-407c-a567-9bd2d2f36f24}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="AgpmGameEvent">
+      <UniqueIdentifier>{b96b3e2d-c6ea-4d68-91a5-9bedfd57e1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGameEvent\Public">
+      <UniqueIdentifier>{d80be801-cd02-40f1-889f-7887dc84230a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AgpmGameEvent\Private">
+      <UniqueIdentifier>{03786b0b-78e5-4600-b2d2-96715c5b45b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Modules\APublic\AgpmAI2\AgpaAI2.cpp">
+      <Filter>AgpmAI2\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmAI2\AgpmAI2.cpp">
+      <Filter>AgpmAI2\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmAdmin\AgpmAdmin.cpp">
+      <Filter>AgpmAdmin\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmAreaChatting\AgpmAreaChatting.cpp">
+      <Filter>AgpmAreaChatting\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmAuction\AgpaAuction.cpp">
+      <Filter>AgpmAuction\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmAuction\AgpmAuction.cpp">
+      <Filter>AgpmAuction\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmAuctionCategory\AgpmAuctionCategory.cpp">
+      <Filter>AgpmAuctionCategory\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmBillInfo\AgpmBillInfo.cpp">
+      <Filter>AgpmBillInfo\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmBuddy\AgpmBuddy.cpp">
+      <Filter>AgpmBuddy\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCashMall\AgpmCashMall.cpp">
+      <Filter>AgpmCashMall\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCashMall\AgpmCashMallPacket.cpp">
+      <Filter>AgpmCashMall\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCashMall\AgpmCashMallStream.cpp">
+      <Filter>AgpmCashMall\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCasper\AgpmCasper.cpp">
+      <Filter>AgpmCasper\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCastle\AgpmCastle.cpp">
+      <Filter>AgpmCastle\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmChannel\AgpaChannel.cpp">
+      <Filter>AgpmChannel\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmChannel\AgpmChannel.cpp">
+      <Filter>AgpmChannel\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCharacter\AgpaCharacter.cpp">
+      <Filter>AgpmCharacter\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCharacter\AgpaCharacterTemplate.cpp">
+      <Filter>AgpmCharacter\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCharacter\AgpmCharacter.cpp">
+      <Filter>AgpmCharacter\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCharacter\AgpmCharacterAction.cpp">
+      <Filter>AgpmCharacter\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCharacter\AgpmCharacterMoney.cpp">
+      <Filter>AgpmCharacter\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCharacter\AgpmCharacterStream.cpp">
+      <Filter>AgpmCharacter\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCharacter\AgpmCharacterUpdate.cpp">
+      <Filter>AgpmCharacter\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmChatting\AgpmChatting.cpp">
+      <Filter>AgpmChatting\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmCombat\AgpmCombat.cpp">
+      <Filter>AgpmCombat\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmConfig\AgpmConfig.cpp">
+      <Filter>AgpmConfig\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmDropItem2\AgpmDropItem2.cpp">
+      <Filter>AgpmDropItem2\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventBank\AgpmEventBank.cpp">
+      <Filter>AgpmEventBank\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventBinding\AgpaEventBinding.cpp">
+      <Filter>AgpmEventBinding\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventBinding\AgpmEventBinding.cpp">
+      <Filter>AgpmEventBinding\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventBinding\AgpmEventBindingStream.cpp">
+      <Filter>AgpmEventBinding\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventCharCustomize\AgpmEventCharCustomize.cpp">
+      <Filter>AgpmEventCharCustomize\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventFactors\AgpmEventFactors.cpp">
+      <Filter>AgpmEventFactors\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventGuild\AgpmEventGuild.cpp">
+      <Filter>AgpmEventGuild\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventItemConvert\AgpmEventItemConvert.cpp">
+      <Filter>AgpmEventItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventItemRepair\AgpmEventItemRepair.cpp">
+      <Filter>AgpmEventItemRepair\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventNPCDialog\AgpaEventNPCDialog.cpp">
+      <Filter>AgpmEventNPCDialog\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventNPCDialog\AgpmEventNPCDialog.cpp">
+      <Filter>AgpmEventNPCDialog\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventNPCTrade\AgpaEventNPCTrade.cpp">
+      <Filter>AgpmEventNPCTrade\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventNPCTrade\AgpmEventNPCTrade.cpp">
+      <Filter>AgpmEventNPCTrade\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventNature\AgpmEventNature.cpp">
+      <Filter>AgpmEventNature\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventPointLight\AgpmEventPointLight.cpp">
+      <Filter>AgpmEventPointLight</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventProduct\AgpmEventProduct.cpp">
+      <Filter>AgpmEventProduct\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventQuest\AgpmEventQuest.cpp">
+      <Filter>AgpmEventQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventRefinery\AgpmEventRefinery.cpp">
+      <Filter>AgpmEventRefinery\헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventSkillMaster\AgpmEventSkillMaster.cpp">
+      <Filter>AgpmEventSkillMaster\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventSkillMaster\AgpmEventSkillMasterStream.cpp">
+      <Filter>AgpmEventSkillMaster\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventSpawn\AgpaSpawnGroup.cpp">
+      <Filter>AgpmEventSpawn\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventSpawn\AgpmEventSpawn.cpp">
+      <Filter>AgpmEventSpawn\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventTeleport\AgpmEventTeleport.cpp">
+      <Filter>AgpmEventTeleport\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventTeleport\AgpmEventTeleportStream.cpp">
+      <Filter>AgpmEventTeleport\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmFactors\AgpmFactors.cpp">
+      <Filter>AgpmFactors\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmGrid\AgpmGrid.cpp">
+      <Filter>AgpmGrid\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmGuild\AgpaGuild.cpp">
+      <Filter>AgpmGuild\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmGuild\AgpdGuild.cpp">
+      <Filter>AgpmGuild\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmGuild\AgpmGuild.cpp">
+      <Filter>AgpmGuild\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpaItem.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItem.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemBank.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemCashInventory.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemClientGrid.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemEquip.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemField.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemGrid.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemInventory.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemQuest.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemSalesBox.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemStream.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemSubInventory.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItem\AgpmItemTradeGrid.cpp">
+      <Filter>AgpmItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvert.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvertPacket.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvertPhysicalAttr.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvertRune.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvertSocket.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvertSpiritStone.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvertStream.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemEgo.cpp">
+      <Filter>AgpmItemConvert\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmLog\AgpmLog.cpp">
+      <Filter>AgpmLog\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmLogin\AgpmLogin.cpp">
+      <Filter>AgpmLogin\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmMailBox\AgpaMailBox.cpp">
+      <Filter>AgpmMailBox\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmMailBox\AgpmMailBox.cpp">
+      <Filter>AgpmMailBox\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmOptimizedPacket2\AgpmOptimizedPacket2.cpp">
+      <Filter>AgpmOptimizedPacket2\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmParty\AgpaParty.cpp">
+      <Filter>AgpmParty\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmParty\AgpmParty.cpp">
+      <Filter>AgpmParty\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmPathFind\AgpmPathFind.cpp">
+      <Filter>AgpmPathFind\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmProduct\AgpaProduct.cpp">
+      <Filter>AgpmProduct\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmProduct\AgpmProduct.cpp">
+      <Filter>AgpmProduct\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmProduct\AgpmProductStream.cpp">
+      <Filter>AgpmProduct\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmPvP\AgpmPvP.cpp">
+      <Filter>AgpmPvP\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmPvP\AgpmPvPPacket.cpp">
+      <Filter>AgpmPvP\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmPvP\AgpmPvPStream.cpp">
+      <Filter>AgpmPvP\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmQuest\AgpaQuestGroup.cpp">
+      <Filter>AgpmQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmQuest\AgpaQuestTemplate.cpp">
+      <Filter>AgpmQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmQuest\AgpdQuest.cpp">
+      <Filter>AgpmQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmQuest\AgpdQuestFlag.cpp">
+      <Filter>AgpmQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmQuest\AgpmQuest.cpp">
+      <Filter>AgpmQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmQuest\AgpmQuestPacket.cpp">
+      <Filter>AgpmQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmQuest\AgpmQuestStream.cpp">
+      <Filter>AgpmQuest\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmRecruit\AgpmRecruit.cpp">
+      <Filter>AgpmRecruit\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmRefinery\AgpaRefinery.cpp">
+      <Filter>AgpmRefinery\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmRefinery\AgpmRefinery.cpp">
+      <Filter>AgpmRefinery\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmRemission\AgpmRemission.cpp">
+      <Filter>AgpmRemission\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmResourceInfo\AgpmResourceInfo.cpp">
+      <Filter>AgpmResourceInfo\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmRide\AgpmRide.cpp">
+      <Filter>AgpmRide\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmScript\AgpmScript.cpp">
+      <Filter>AgpmScript\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmShrine\AgpaShrine.cpp">
+      <Filter>AgpmShrine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmShrine\AgpaShrineTemplate.cpp">
+      <Filter>AgpmShrine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmShrine\AgpmShrine.cpp">
+      <Filter>AgpmShrine\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSiegeWar\AgpmSiegeWar.cpp">
+      <Filter>AgpmSiegeWar\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSiegeWar\AgpmSiegeWarApplication.cpp">
+      <Filter>AgpmSiegeWar\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpaSkill.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillProductTemplate.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillSpecializeTemplate.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillTemplate.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillTooltipTemplate.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpmSkill.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpmSkillMakePacket.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpmSkillMastery.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSkill\AgpmSkillStream.cpp">
+      <Filter>AgpmSkill\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSummons\AgpmSummons.cpp">
+      <Filter>AgpmSummons\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSystemMessage\AgpmSystemMessage.cpp">
+      <Filter>AgpmSystemMessage\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTimer\AgpmTimer.cpp">
+      <Filter>AgpmTimer\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmUIStatus\AgpmUIStatus.cpp">
+      <Filter>AgpmUIStatus\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmUnion\AgpmUnion.cpp">
+      <Filter>AgpmUnion\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmWorld\AgpmWorld.cpp">
+      <Filter>AgpmWorld\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmFactors\ApmFactors.cpp">
+      <Filter>ApmFactors\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmMap\ApMapBlocking.cpp">
+      <Filter>ApmMap\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmMap\ApmMap.cpp">
+      <Filter>ApmMap\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmMap\ApWorldSector.cpp">
+      <Filter>ApmMap\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmMap\AuOTree.cpp">
+      <Filter>ApmMap\OTree</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmMap\MagPackManager.cpp">
+      <Filter>ApmMap\MagPack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmMap\MagUnpackManager.cpp">
+      <Filter>ApmMap\MagPack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmObject\ApdObject.cpp">
+      <Filter>ApmObject\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmObject\ApmObject.cpp">
+      <Filter>ApmObject\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmOcTree\ApmOcTree.cpp">
+      <Filter>ApmOcTree\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmReturnToLogin\AgpmReturnToLogin.cpp">
+      <Filter>AgpmReturnToLogin\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmWantedCriminal\AgpmWantedCriminal.cpp">
+      <Filter>AgpmWantedCriminal\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmNatureEffect\AgpmNatureEffect.cpp">
+      <Filter>AgpmNatureEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmStartupEncryption\AgpmStartupEncryption.cpp">
+      <Filter>AgpmStartupEncryption\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventSiegeWarNPC\AgpmEventSiegeWarNPC.cpp">
+      <Filter>AgpmEventSiegeWarNPC\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmSearch\AgpmSearch.cpp">
+      <Filter>AgpmSearch\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTax\AgpmTax.cpp">
+      <Filter>AgpmTax\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmGuildWarehouse\AgpmGuildWarehouse.cpp">
+      <Filter>AgpmGuildWarehouse\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmArchlord\AgpmArchlord.cpp">
+      <Filter>AgpmArchlord\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmGamble\AgpmGamble.cpp">
+      <Filter>AgpmGamble\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEventGacha\AgpmEventGacha.cpp">
+      <Filter>AgpmEventGacha</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmBattleGround\AgpmBattleGround.cpp">
+      <Filter>AgpmBattleGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmEventManager\ApaEvent.cpp">
+      <Filter>ApmEventManager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmEventManager\ApmEventCondition.cpp">
+      <Filter>ApmEventManager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\ApmEventManager\ApmEventManager.cpp">
+      <Filter>ApmEventManager\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTransform\AgpmTransform.cpp">
+      <Filter>AgpmTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmEpicZone\AgpmEpicZone.cpp">
+      <Filter>AgpmEpicZone\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmMonsterPath\AgpmMonsterPath.cpp">
+      <Filter>AgpmMonsterPath\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTitle\AgpaTitle.cpp">
+      <Filter>agpmTitle\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTitle\AgpdTitle.cpp">
+      <Filter>agpmTitle\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTitle\AgpdTitleQuest.cpp">
+      <Filter>agpmTitle\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTitle\AgpmTitle.cpp">
+      <Filter>agpmTitle\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmTitle\AgpmTItleStream.cpp">
+      <Filter>agpmTitle\source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmPathManager\AgpmPath.cpp">
+      <Filter>AgpmPathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmPathManager\AgpmPathManager.cpp">
+      <Filter>AgpmPathManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmDropItem\AgpaDropItem.cpp">
+      <Filter>AgpmDropItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmDropItem\AgpmDropItem.cpp">
+      <Filter>AgpmDropItem\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Modules\APublic\AgpmGameEvent\AgpmGameEvent.cpp">
+      <Filter>AgpmGameEvent\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAI2\AgpaAI2.h">
+      <Filter>AgpmAI2\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAI2\AgpdAI2.h">
+      <Filter>AgpmAI2\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAI2\AgpmAI2.h">
+      <Filter>AgpmAI2\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAdmin\AgpdAdmin.h">
+      <Filter>AgpmAdmin\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAdmin\AgpmAdmin.h">
+      <Filter>AgpmAdmin\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAdmin\AgppAdmin.h">
+      <Filter>AgpmAdmin\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAreaChatting\AgpmAreaChatting.h">
+      <Filter>AgpmAreaChatting\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAuction\AgpaAuction.h">
+      <Filter>AgpmAuction\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAuction\AgpdAuction.h">
+      <Filter>AgpmAuction\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAuction\AgpmAuction.h">
+      <Filter>AgpmAuction\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmAuctionCategory\AgpmAuctionCategory.h">
+      <Filter>AgpmAuctionCategory\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmBillInfo\AgpdBillInfo.h">
+      <Filter>AgpmBillInfo\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmBillInfo\AgpmBillInfo.h">
+      <Filter>AgpmBillInfo\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmBuddy\AgpdBuddy.h">
+      <Filter>AgpmBuddy\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmBuddy\AgpmBuddy.h">
+      <Filter>AgpmBuddy\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCashMall\AgpdCashMall.h">
+      <Filter>AgpmCashMall\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCashMall\AgpmCashMall.h">
+      <Filter>AgpmCashMall\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCasper\AgpmCasper.h">
+      <Filter>AgpmCasper\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCastle\AgpmCastle.h">
+      <Filter>AgpmCastle\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmChannel\AgpaChannel.h">
+      <Filter>AgpmChannel\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmChannel\AgpdChannel.h">
+      <Filter>AgpmChannel\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmChannel\AgpmChannel.h">
+      <Filter>AgpmChannel\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCharacter\AgpaCharacter.h">
+      <Filter>AgpmCharacter\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCharacter\AgpaCharacterTemplate.h">
+      <Filter>AgpmCharacter\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCharacter\AgpdCharacter.h">
+      <Filter>AgpmCharacter\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCharacter\AgpdCharacterImportData.h">
+      <Filter>AgpmCharacter\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCharacter\AgpmCharacter.h">
+      <Filter>AgpmCharacter\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCharacter\AgppCharacter.h">
+      <Filter>AgpmCharacter\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCharacter\ApAutoLockCharacter.h">
+      <Filter>AgpmCharacter\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmChatting\AgpdChatting.h">
+      <Filter>AgpmChatting\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmChatting\AgpmChatting.h">
+      <Filter>AgpmChatting\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmCombat\AgpmCombat.h">
+      <Filter>AgpmCombat\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmConfig\AgpmConfig.h">
+      <Filter>AgpmConfig\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmDropItem2\AgpdDropItem2.h">
+      <Filter>AgpmDropItem2\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmDropItem2\AgpmDropItem2.h">
+      <Filter>AgpmDropItem2\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventBank\AgpmEventBank.h">
+      <Filter>AgpmEventBank\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventBinding\AgpaEventBinding.h">
+      <Filter>AgpmEventBinding\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventBinding\AgpdEventBinding.h">
+      <Filter>AgpmEventBinding\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventBinding\AgpmEventBinding.h">
+      <Filter>AgpmEventBinding\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventCharCustomize\AgpmEventCharCustomize.h">
+      <Filter>AgpmEventCharCustomize\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventFactors\AgpmEventFactors.h">
+      <Filter>AgpmEventFactors\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventGuild\AgpmEventGuild.h">
+      <Filter>AgpmEventGuild\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventItemConvert\AgpmEventItemConvert.h">
+      <Filter>AgpmEventItemConvert\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventItemRepair\AgpmEventItemRepair.h">
+      <Filter>AgpmEventItemRepair\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventNPCDialog\AgpdEventNPCDialog.h">
+      <Filter>AgpmEventNPCDialog\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventNPCDialog\AgpmEventNPCDialog.h">
+      <Filter>AgpmEventNPCDialog\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventNPCDialog\AgppEventNPCDialog.h">
+      <Filter>AgpmEventNPCDialog\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventNPCTrade\AgpdEventNPCTrade.h">
+      <Filter>AgpmEventNPCTrade\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventNPCTrade\AgpmEventNPCTrade.h">
+      <Filter>AgpmEventNPCTrade\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventNature\AgpdEventNature.h">
+      <Filter>AgpmEventNature\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventNature\AgpmEventNature.h">
+      <Filter>AgpmEventNature\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventPointLight\AgpmEventPointLight.h">
+      <Filter>AgpmEventPointLight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventProduct\AgpmEventProduct.h">
+      <Filter>AgpmEventProduct\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventQuest\AgpmEventQuest.h">
+      <Filter>AgpmEventQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventRefinery\AgpmEventRefinery.h">
+      <Filter>AgpmEventRefinery\소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventSkillMaster\AgpdEventSkillMaster.h">
+      <Filter>AgpmEventSkillMaster\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventSkillMaster\AgpmEventSkillMaster.h">
+      <Filter>AgpmEventSkillMaster\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventSkillMaster\AgpmEventSkillMasterEvolution.h">
+      <Filter>AgpmEventSkillMaster\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventSpawn\AgpaSpawnGroup.h">
+      <Filter>AgpmEventSpawn\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventSpawn\AgpdEventSpawn.h">
+      <Filter>AgpmEventSpawn\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventSpawn\AgpmEventSpawn.h">
+      <Filter>AgpmEventSpawn\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventTeleport\AgpdEventTeleport.h">
+      <Filter>AgpmEventTeleport\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventTeleport\AgpmEventTeleport.h">
+      <Filter>AgpmEventTeleport\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmFactors\AgpdFactors.h">
+      <Filter>AgpmFactors\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmFactors\AgpmFactors.h">
+      <Filter>AgpmFactors\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGrid\AgpdGrid.h">
+      <Filter>AgpmGrid\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGrid\AgpmGrid.h">
+      <Filter>AgpmGrid\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGuild\AgpaGuild.h">
+      <Filter>AgpmGuild\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGuild\AgpdGuild.h">
+      <Filter>AgpmGuild\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGuild\AgpmGuild.h">
+      <Filter>AgpmGuild\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGuild\AgppGuild.h">
+      <Filter>AgpmGuild\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\AgpaItem.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\AgpdItem.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\AgpdItemImportData.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\AgpdItemOptionTemplate.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\AgpdItemTemplate.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\AgpmItem.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\AgppItem.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\ApdItem.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItem\ApdItemTemplate.h">
+      <Filter>AgpmItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItemConvert\AgpdItemConvert.h">
+      <Filter>AgpmItemConvert\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvert.h">
+      <Filter>AgpmItemConvert\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmItemConvert\AgpmItemConvertStream.h">
+      <Filter>AgpmItemConvert\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmLog\AgpdLog.h">
+      <Filter>AgpmLog\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmLog\AgpmLog.h">
+      <Filter>AgpmLog\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmLogin\AgpmLogin.h">
+      <Filter>AgpmLogin\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmMailBox\AgpaMailBox.h">
+      <Filter>AgpmMailBox\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmMailBox\AgpdMailBox.h">
+      <Filter>AgpmMailBox\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmMailBox\AgpmMailBox.h">
+      <Filter>AgpmMailBox\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmOptimizedPacket2\AgpmOptimizedPacket2.h">
+      <Filter>AgpmOptimizedPacket2\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmParty\AgpaParty.h">
+      <Filter>AgpmParty\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmParty\AgpdParty.h">
+      <Filter>AgpmParty\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmParty\AgpmParty.h">
+      <Filter>AgpmParty\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathFind\AgpdPathFind.h">
+      <Filter>AgpmPathFind\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathFind\AgpmPathFind.h">
+      <Filter>AgpmPathFind\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathFind\PLinkedList.h">
+      <Filter>AgpmPathFind\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathFind\SpecializeListPathFind.h">
+      <Filter>AgpmPathFind\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmProduct\AgpaProduct.h">
+      <Filter>AgpmProduct\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmProduct\AgpdProduct.h">
+      <Filter>AgpmProduct\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmProduct\AgpmProduct.h">
+      <Filter>AgpmProduct\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPvP\AgpdPvP.h">
+      <Filter>AgpmPvP\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPvP\AgpmPvP.h">
+      <Filter>AgpmPvP\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmQuest\AgpaQuestGroup.h">
+      <Filter>AgpmQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmQuest\AgpaQuestTemplate.h">
+      <Filter>AgpmQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmQuest\AgpdQuest.h">
+      <Filter>AgpmQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmQuest\AgpdQuestFlag.h">
+      <Filter>AgpmQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmQuest\AgpdQuestTemplate.h">
+      <Filter>AgpmQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmQuest\AgpmQuest.h">
+      <Filter>AgpmQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmQuest\AgpmQuestStringTable.h">
+      <Filter>AgpmQuest\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmRecruit\AgpmRecruit.h">
+      <Filter>AgpmRecruit\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmRefinery\AgpaRefinery.h">
+      <Filter>AgpmRefinery\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmRefinery\AgpdRefinery.h">
+      <Filter>AgpmRefinery\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmRefinery\AgpmRefinery.h">
+      <Filter>AgpmRefinery\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmRemission\AgpmRemission.h">
+      <Filter>AgpmRemission\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmResourceInfo\AgpmResourceInfo.h">
+      <Filter>AgpmResourceInfo\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmRide\AgpmRide.h">
+      <Filter>AgpmRide\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmScript\AgpmScript.h">
+      <Filter>AgpmScript\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmShrine\AgpaShrine.h">
+      <Filter>AgpmShrine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmShrine\AgpaShrineTemplate.h">
+      <Filter>AgpmShrine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmShrine\AgpdShrine.h">
+      <Filter>AgpmShrine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmShrine\AgpmShrine.h">
+      <Filter>AgpmShrine\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSiegeWar\AgpdSiegeWar.h">
+      <Filter>AgpmSiegeWar\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSiegeWar\AgpmSiegeWar.h">
+      <Filter>AgpmSiegeWar\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpaSkill.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillProductTemplate.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillSpecializeTemplate.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillTemplate.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpaSkillTooltipTemplate.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpdSkill.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpdSkillImportData.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpdSkillProduct.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSkill\AgpmSkill.h">
+      <Filter>AgpmSkill\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSummons\AgpdSummons.h">
+      <Filter>AgpmSummons\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSummons\AgpmSummons.h">
+      <Filter>AgpmSummons\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSystemMessage\AgpdSystemMessage.h">
+      <Filter>AgpmSystemMessage\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSystemMessage\AgpmSystemMessage.h">
+      <Filter>AgpmSystemMessage\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTimer\AgpdTimer.h">
+      <Filter>AgpmTimer\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTimer\AgpmTimer.h">
+      <Filter>AgpmTimer\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmUIStatus\AgpdUIStatus.h">
+      <Filter>AgpmUIStatus\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmUIStatus\AgpmUIStatus.h">
+      <Filter>AgpmUIStatus\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmUnion\AgpmUnion.h">
+      <Filter>AgpmUnion\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmWorld\AgpmWorld.h">
+      <Filter>AgpmWorld\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmFactors\ApmFactors.h">
+      <Filter>ApmFactors\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmMap\ApMapBlocking.h">
+      <Filter>ApmMap\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmMap\ApmMap.h">
+      <Filter>ApmMap\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmMap\ApWorldSector.h">
+      <Filter>ApmMap\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmMap\AuOTree.h">
+      <Filter>ApmMap\OTree</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmMap\MagPackManager.h">
+      <Filter>ApmMap\MagPack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmMap\MagUnpackManager.h">
+      <Filter>ApmMap\MagPack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmObject\ApdObject.h">
+      <Filter>ApmObject\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmObject\ApmObject.h">
+      <Filter>ApmObject\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmOcTree\ApmOcTree.h">
+      <Filter>ApmOcTree\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmReturnToLogin\AgpmReturnToLogin.h">
+      <Filter>AgpmReturnToLogin\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmWantedCriminal\AgpdWantedCriminal.h">
+      <Filter>AgpmWantedCriminal\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmWantedCriminal\AgpmWantedCriminal.h">
+      <Filter>AgpmWantedCriminal\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmNatureEffect\AgpmNatureEffect.h">
+      <Filter>AgpmNatureEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmStartupEncryption\AgpmStartupEncryption.h">
+      <Filter>AgpmStartupEncryption\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventSiegeWarNPC\AgpmEventSiegeWarNPC.h">
+      <Filter>AgpmEventSiegeWarNPC\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApText\ApText.h">
+      <Filter>ApText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApText\ApText_cn.h">
+      <Filter>ApText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApText\ApText_kr.h">
+      <Filter>ApText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSearch\AgpdSearch.h">
+      <Filter>AgpmSearch\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmSearch\AgpmSearch.h">
+      <Filter>AgpmSearch\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTax\AgpdTax.h">
+      <Filter>AgpmTax\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTax\AgpmTax.h">
+      <Filter>AgpmTax\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGuildWarehouse\AgpdGuildWarehouse.h">
+      <Filter>AgpmGuildWarehouse\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGuildWarehouse\AgpmGuildWarehouse.h">
+      <Filter>AgpmGuildWarehouse\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmArchlord\AgpmArchlord.h">
+      <Filter>AgpmArchlord\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGamble\AgpdGamble.h">
+      <Filter>AgpmGamble\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGamble\AgpmGamble.h">
+      <Filter>AgpmGamble\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventGacha\AgpdEventGacha.h">
+      <Filter>AgpmEventGacha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEventGacha\AgpmEventGacha.h">
+      <Filter>AgpmEventGacha</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmBattleGround\AgpmBattleGround.h">
+      <Filter>AgpmBattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmBattleGround\AgppBattleGround.h">
+      <Filter>AgpmBattleGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmEventManager\ApaEvent.h">
+      <Filter>ApmEventManager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmEventManager\ApdEvent.h">
+      <Filter>ApmEventManager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\ApmEventManager\ApmEventManager.h">
+      <Filter>ApmEventManager\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTransform\AgpmTransform.h">
+      <Filter>AgpmTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmEpicZone\AgpmEpicZone.h">
+      <Filter>AgpmEpicZone\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmMonsterPath\AgpdMonsterPath.h">
+      <Filter>AgpmMonsterPath\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmMonsterPath\AgpmMonsterPath.h">
+      <Filter>AgpmMonsterPath\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTitle\AgpaTitle.h">
+      <Filter>agpmTitle\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTitle\AgpdTitle.h">
+      <Filter>agpmTitle\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTitle\AgpdTitleQuest.h">
+      <Filter>agpmTitle\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTitle\AgpdTitleTemplate.h">
+      <Filter>agpmTitle\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTitle\AgpmTitle.h">
+      <Filter>agpmTitle\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmTitle\agppTitle.h">
+      <Filter>agpmTitle\header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathManager\AgpdPathPoint.h">
+      <Filter>AgpmPathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathManager\AgpmPath.h">
+      <Filter>AgpmPathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathManager\AgpmPathManager.h">
+      <Filter>AgpmPathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathManager\astar.h">
+      <Filter>AgpmPathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmPathManager\astar.hpp">
+      <Filter>AgpmPathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmDropItem\AgpaDropItem.h">
+      <Filter>AgpmDropItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmDropItem\AgpdDropItem.h">
+      <Filter>AgpmDropItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmDropItem\AgpmDropItem.h">
+      <Filter>AgpmDropItem\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGameEvent\AgpdGameEvent.h">
+      <Filter>AgpmGameEvent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Modules\APublic\AgpmGameEvent\AgpmGameEvent.h">
+      <Filter>AgpmGameEvent\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Modules\APublic\AgpmFactors\AgpmFactors.ini">
+      <Filter>AgpmFactors</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,318 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""res\\ShopClient.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#include ""afxres.rc""     // 표준 구성 요소입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ShopClient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ShopClient 정보"
+FONT 9, "MS 셸 대화 상자", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ShopClient 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,16,WS_GROUP
+END
+
+IDD_SHOPCLIENT_DIALOG DIALOGEX 0, 0, 411, 521
+STYLE DS_SETFONT | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ShopClient"
+FONT 9, "굴림", 400, 0, 0x81
+BEGIN
+    EDITTEXT        IDC_EDIT_IP,62,19,188,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PORT,305,19,43,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "연결",IDC_BUT_CONNECT,351,20,45,14
+    EDITTEXT        IDC_EDIT_INQUIRE_TYPE,55,82,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INQUIRE_ACCOUNT,175,82,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INQUIRE_GAMECODE,55,100,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_INQUIRE_ACCOUNTID,175,100,73,14,ES_AUTOHSCROLL
+    CONTROL         "총 합만 얻는다.",IDC_CHK_SUM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,118,64,10
+    PUSHBUTTON      "조회",IDC_BUT_SHOPINQUIRE,203,116,45,14
+    EDITTEXT        IDC_EDIT_BUY_ACCOUNT,55,153,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_ACCOUNTID,175,153,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_PRODUCTCODE,55,171,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_GAMECODE,175,171,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_PURCHASE,54,189,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_NAME,175,189,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_LEVEL,54,207,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_CLASS,175,208,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_ZONE,54,226,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_CHARNAME,175,225,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_TYPE,54,244,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_PRICE,175,244,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_SERVERINDEX,54,262,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_BUY_METHOD,175,262,73,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "구매",IDC_BUT_SHOPBUY,203,280,45,14
+    EDITTEXT        IDC_EDIT_GIFT_SENDER,57,312,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_RECEIVER,177,312,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_SENDERID,57,330,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_RECEIVERID,177,330,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_MESSAGE,57,349,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_GAMECODE,177,349,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_PRODUCTCODE,57,367,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_PRODUCTNAME,177,367,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_PURCHASE,57,385,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_SCLASS,177,385,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_SLEVEL,57,403,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_SCHARNAME,177,403,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_SSERVERINDEX,56,420,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_RSERVERINDEX,176,420,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_RCLASS,57,437,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_RLEVEL,177,437,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_RCHARNAME,57,455,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_ZONE,177,455,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_PRICE,57,473,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_TYPE,177,473,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_GIFT_METHOD,57,491,73,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "선물",IDC_BUT_GIFT,205,494,45,14
+    PUSHBUTTON      "닫기",IDCANCEL,354,493,50,16
+    CTEXT           "IP Address",IDC_STATIC,14,21,41,11
+    GROUPBOX        "서버 정보",IDC_STATIC,7,7,397,32
+    CTEXT           "Port Num",IDC_STATIC,263,22,41,8
+    GROUPBOX        "캐시 조회",IDC_STATIC,7,69,247,65
+    GROUPBOX        "상품 구매",IDC_STATIC,7,139,247,159
+    GROUPBOX        "상품 선물",IDC_STATIC,7,302,247,213
+    LTEXT           "조회 유형",IDC_STATIC,14,86,35,10
+    LTEXT           "계정 순번",IDC_STATIC,134,86,35,10
+    LTEXT           "게임 코드",IDC_STATIC,14,104,35,10
+    LTEXT           "계정 순번",IDC_STATIC,14,157,35,10
+    LTEXT           "게임 코드",IDC_STATIC,134,175,35,10
+    LTEXT           "상품 순번",IDC_STATIC,14,175,35,10
+    LTEXT           "상품 명",IDC_STATIC,134,193,35,10
+    LTEXT           "판매 영역",IDC_STATIC,14,230,35,10
+    LTEXT           "캐시 가격",IDC_STATIC,134,248,35,10
+    LTEXT           "차감 유형",IDC_STATIC,14,248,35,10
+    LTEXT           "발신자 순번",IDC_STATIC,17,316,40,10
+    LTEXT           "수신자 순번",IDC_STATIC,137,316,39,10
+    LTEXT           "메시지",IDC_STATIC,17,353,35,10
+    LTEXT           "게임 코드",IDC_STATIC,137,353,35,10
+    LTEXT           "상품 순번",IDC_STATIC,17,371,35,10
+    LTEXT           "상품 명",IDC_STATIC,137,371,35,10
+    LTEXT           "차감 유형",IDC_STATIC,137,477,35,10
+    LTEXT           "판매 영역",IDC_STATIC,137,457,35,10
+    LTEXT           "캐시 가격",IDC_STATIC,17,475,35,10
+    LTEXT           "구매 번호",IDC_STATIC,17,389,35,10
+    LTEXT           "구매 번호",IDC_STATIC,13,193,35,10
+    LTEXT           "클래스",IDC_STATIC,136,212,35,10
+    LTEXT           "레벨",IDC_STATIC,14,211,35,10
+    LTEXT           "캐릭터 명",IDC_STATIC,134,230,35,10
+    LTEXT           "결재 수단",IDC_STATIC,134,266,35,10
+    LTEXT           "결재 수단",IDC_STATIC,17,495,35,10
+    LTEXT           "S클래스",IDC_STATIC,137,389,35,10
+    LTEXT           "R클래스",IDC_STATIC,17,441,35,10
+    LTEXT           "R레벨",IDC_STATIC,137,441,35,10
+    LTEXT           "R캐릭터 명",IDC_STATIC,17,457,35,10
+    LTEXT           "서버 번호",IDC_STATIC,13,266,35,10
+    LTEXT           "S레벨",IDC_STATIC,17,407,35,10
+    LTEXT           "S캐릭터 명",IDC_STATIC,137,407,35,10
+    LTEXT           "S서버번호",IDC_STATIC,16,424,35,10
+    LTEXT           "R서버번호",IDC_STATIC,136,424,35,10
+    LTEXT           "계정",IDC_STATIC,134,157,35,10
+    LTEXT           "계정",IDC_STATIC,134,104,35,10
+    LTEXT           "발신자 계정",IDC_STATIC,17,334,40,10
+    LTEXT           "수신자 계정",IDC_STATIC,137,334,39,10
+    GROUPBOX        "캐시 조회",IDC_STATIC,260,69,144,91
+    GROUPBOX        "상품 구매",IDC_STATIC,260,165,144,195
+    EDITTEXT        IDC_EDIT_TW_IC_GAMECODE,320,84,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_IC_SERVERINDEX,320,102,73,14,ES_AUTOHSCROLL
+    LTEXT           "게임 코드",IDC_STATIC,268,88,47,10
+    LTEXT           "서버 번호",IDC_STATIC,268,106,47,10
+    PUSHBUTTON      "조회",IDC_BUT_TW_SHOPINQUIRE,348,137,45,14
+    EDITTEXT        IDC_EDIT_TW_IC_ACCOUNTID,320,120,73,14,ES_AUTOHSCROLL
+    LTEXT           "ID",IDC_STATIC,268,124,47,10
+    EDITTEXT        IDC_EDIT_TW_BP_GAMECODE,320,180,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_BP_SERVERINDEX,320,198,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_BP_ACCOUNTID,320,216,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_BP_CHARNAME,320,234,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_BP_DEDUCTPRICE,320,252,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_BP_ITEMNO,320,270,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_BP_ORDERNO,320,288,73,14,ES_AUTOHSCROLL
+    LTEXT           "게임 코드",IDC_STATIC,268,184,47,10
+    LTEXT           "서버 번호",IDC_STATIC,268,202,47,10
+    LTEXT           "차감 캐시",IDC_STATIC,268,256,47,10
+    LTEXT           "아이템 번호",IDC_STATIC,268,274,47,10
+    LTEXT           "ID",IDC_STATIC,268,220,47,10
+    LTEXT           "캐릭터 이름",IDC_STATIC,268,238,47,10
+    LTEXT           "주문 번호",IDC_STATIC,268,292,47,10
+    EDITTEXT        IDC_EDIT_TW_BP_ORDERQUANTITY,320,306,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TW_BP_ACCESSIP,320,324,73,14,ES_AUTOHSCROLL
+    LTEXT           "주문 수량",IDC_STATIC,268,310,47,10
+    LTEXT           "IP 어드레스",IDC_STATIC,268,328,47,10
+    LTEXT           "● AR_GB",IDC_STATIC,7,47,41,14
+    LTEXT           "● AR_TW(대만 추가 서비스)",IDC_STATIC,261,49,97,14
+    PUSHBUTTON      "구매",IDC_BUT_TW_SHOPBUY,348,341,45,14
+    GROUPBOX        "상품 선물",IDC_STATIC,260,364,144,32
+    LTEXT           "●  AR_TW는 없음",IDC_STATIC,271,379,119,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041203b5"
+        BEGIN
+            VALUE "CompanyName", "TODO: <회사 이름>"
+            VALUE "FileDescription", "TODO: <파일 설명>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ShopClient.exe"
+            VALUE "LegalCopyright", "TODO: (c) <회사 이름>.  All rights reserved."
+            VALUE "OriginalFilename", "ShopClient.exe"
+            VALUE "ProductName", "TODO: <제품 이름>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 949
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_SHOPCLIENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 404
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 514
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "ShopClient 정보(&A)..."
+END
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "res\ShopClient.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#include "afxres.rc"     // 표준 구성 요소입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
