@@ -51,11 +51,11 @@ BOOL	AcArchlordInfo::LoadFile( BOOL bEncrypt )
 
 
 			// 2 - 메모리의 내용을 복호화 한다
-			if( !MD5.DecryptString( "1111", pFileBuffer, nSize ) )
-			{
-				DEF_SAFEDELETE( pFileBuffer );
-				return FALSE;
-			}
+			//if( !MD5.DecryptString( "1111", pFileBuffer, nSize ) )
+			//{
+			//	DEF_SAFEDELETE( pFileBuffer );
+			//	return FALSE;
+			//}
 			// 2 - END
 
 

@@ -1,13 +1,9 @@
-
-/* ------------------------------------------------------- */
-
 #include "AgcmImGui.h"
+
 #include "imgui_impl_win32.h"
 #include "imgui_impl_dx9.h"
 #include <AgcmRender/AgcmRender.h>
 #include <rwcore.h>
-
-/* ------------------------------------------------------- */
 
 extern IMGUI_IMPL_API LRESULT
 ImGui_ImplWin32_WndProcHandler(
@@ -15,8 +11,6 @@ ImGui_ImplWin32_WndProcHandler(
 	UINT	msg, 
 	WPARAM	wParam, 
 	LPARAM	lParam);
-
-/* ------------------------------------------------------- */
 
 AgcmImGui::AgcmImGui()
 	: m_hwnd(NULL)
@@ -27,8 +21,6 @@ AgcmImGui::AgcmImGui()
 AgcmImGui::~AgcmImGui()
 {
 }
-
-/* ------------------------------------------------------- */
 
 BOOL AgcmImGui::OnAddModule()
 {
@@ -68,8 +60,6 @@ BOOL AgcmImGui::OnIdle(UINT32 ulClockCount)
 void AgcmImGui::OnLuaInitialize(AuLua * pLua)
 {
 }
-
-/* ------------------------------------------------------- */
 
 void AgcmImGui::SetHwnd(HWND hwnd)
 {
