@@ -113,6 +113,9 @@
     <ClCompile Include="..\..\Etc\AcuCreateClump\AcuCreateClump.cpp" />
     <ClCompile Include="..\..\Etc\AcuDeviceCheck\AcuDeviceCheck.cpp" />
     <ClCompile Include="..\..\Etc\AcuExportDFF\AcuExportDFF.cpp" />
+    <ClCompile Include="..\..\Etc\AcuExportDFF\AcuExportGLTF.cpp" />
+    <ClCompile Include="..\..\Etc\AcuExportDFF\cgltf.cpp" />
+    <ClCompile Include="..\..\Etc\AcuExportDFF\cgltf_write.cpp" />
     <ClCompile Include="..\..\Etc\AcuFileAdmin\AcuFileAdmin.cpp" />
     <ClCompile Include="..\..\Etc\AcuFrameMemory\AcuFrameMemory.cpp" />
     <ClCompile Include="..\..\Etc\AcuIMDraw\AcuIMDraw.cpp" />
@@ -524,6 +527,9 @@
     <ClInclude Include="..\..\Etc\AcuCreateClump\AcuCreateClump.h" />
     <ClInclude Include="..\..\Etc\AcuDeviceCheck\AcuDeviceCheck.h" />
     <ClInclude Include="..\..\Etc\AcuExportDFF\AcuExportDFF.h" />
+    <ClInclude Include="..\..\Etc\AcuExportDFF\AcuExportGLTF.h" />
+    <ClInclude Include="..\..\Etc\AcuExportDFF\cgltf.h" />
+    <ClInclude Include="..\..\Etc\AcuExportDFF\cgltf_write.h" />
     <ClInclude Include="..\..\Etc\AcuFileAdmin\AcuFileAdmin.h" />
     <ClInclude Include="..\..\Etc\AcuFrameMemory\AcuFrameMemory.h" />
     <ClInclude Include="..\..\Etc\AcuIMDraw\AcuIMDraw.h" />

@@ -18,6 +18,7 @@
 #include <AgpmSearch/AgpmSearch.h>
 #include <AgpmParty/AgpmParty.h>
 #include <AgcmRender/AgcmRender.h>
+#include <AcuExportDFF/AcuExportGLTF.h>
 
 // 2005.03.10. steeple
 // BGM File, Title List
@@ -629,6 +630,36 @@ bool AgcmUIChatting2::ProcessChatMessage(const std::string &message)
 
 			AgcuCamMode::bGetInst().ReloadCamSetting();
 			AgcuCamMode::bGetInst().SetCameraInfo( pcmCamera , pstAgpdCharacter );
+		}
+		else if (!strncmp(command, "/export_character", 17)) {
+			if (arg.GetArgCount() < 2) {
+				return FALSE;
+			}
+			AcuExportGLTF* exporter = new AcuExportGLTF;
+			if (exporter) {
+				int tid = atoi(arg.GetParam(1));
+				int faceId = 0;
+				int hairId = 0;
+				if (arg.GetArgCount() > 2) {
+					faceId = atoi(arg.GetParam(2));
+					if (arg.GetArgCount() > 3) {
+						hairId = atoi(arg.GetParam(3));
+					}
+				}
+				exporter->ExportCharacter(m_pcsAgpmCharacter, tid, faceId, hairId);
+				delete exporter;
+			}
+		}
+		else if (!strncmp(command, "/export_object", 14)) {
+			if (arg.GetArgCount() < 2) {
+				return FALSE;
+			}
+			AcuExportGLTF* exporter = new AcuExportGLTF;
+			if (exporter) {
+				int tid = atoi(arg.GetParam(1));
+				exporter->ExportObject((ApmObject*)GetModule("ApmObject"), tid);
+				delete exporter;
+			}
 		}
 		#ifdef _DEBUG
 		else if(!strcmp(command, "/time"))

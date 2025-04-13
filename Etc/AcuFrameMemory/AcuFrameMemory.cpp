@@ -36,14 +36,13 @@ void
 AcuFrameMemory::Clear()
 {
 #ifdef _DEBUG
-	char szBuf[128];
-	static size_t nMaxUse = 0;
-
-	if (m_nCursor > nMaxUse)
-		nMaxUse = m_nCursor;
-	sprintf(szBuf, "Frame mem. in use: %ukb (Max. %ukb)\n", 
-		m_nCursor / 1024, nMaxUse / 1024);
-	OutputDebugStringA(szBuf);
+	//char szBuf[128];
+	//static size_t nMaxUse = 0;
+	//if (m_nCursor > nMaxUse)
+	//	nMaxUse = m_nCursor;
+	//sprintf(szBuf, "Frame mem. in use: %ukb (Max. %ukb)\n", 
+	//	m_nCursor / 1024, nMaxUse / 1024);
+	//OutputDebugStringA(szBuf);
 #endif
 	memset32(m_pHead, 0xDEADDEAD, m_nCursor);
 	m_nCursor = 0;

@@ -2784,6 +2784,15 @@
     <ClCompile Include="..\..\Modules\AClient\AgcmUIGameEvent\AgcmUIGameEvent.cpp">
       <Filter>AgcmUIGameEvent\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Etc\AcuExportDFF\cgltf.cpp">
+      <Filter>AcuExportDFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Etc\AcuExportDFF\cgltf_write.cpp">
+      <Filter>AcuExportDFF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Etc\AcuExportDFF\AcuExportGLTF.cpp">
+      <Filter>AcuExportDFF</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Client\AcClientSocket\AcClientSocket.h">
@@ -3964,6 +3973,15 @@
     </ClInclude>
     <ClInclude Include="..\..\Modules\AClient\AgcmUIGameEvent\AgcmUIGameEvent.h">
       <Filter>AgcmUIGameEvent\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Etc\AcuExportDFF\cgltf.h">
+      <Filter>AcuExportDFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Etc\AcuExportDFF\cgltf_write.h">
+      <Filter>AcuExportDFF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Etc\AcuExportDFF\AcuExportGLTF.h">
+      <Filter>AcuExportDFF</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

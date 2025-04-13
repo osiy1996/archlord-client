@@ -88,6 +88,9 @@
 #include <AgcmAdmin/AgcmAdmin.h>
 #include <AgcmMap/AgcmMap.h>
 #include <AgcmShadow/AgcmShadow.h>
+#include <AgcmResourceLoader/AgcmResourceLoader.h>
+#include <AcuExportDFF/AcuExportGLTF.h>
+#include <AgcmObject/AgcmObject.h>
 
 extern MINIDUMP_TYPE	g_eMiniDumpType	;//
 
@@ -405,6 +408,59 @@ MainWindow::~MainWindow()
 // 디버그 트레이스 체크용..
 extern BOOL g_bUseTrace;
 static BOOL bLoadTemplates = FALSE;
+
+static void debugPrint(const char * fmt, ...)
+{
+	char buffer[1024];
+	va_list list;
+	va_start(list, fmt);
+	vsnprintf(buffer, sizeof(buffer), fmt, list);
+	va_end(list);
+	OutputDebugStringA(buffer);
+	OutputDebugStringA("\n");
+}
+
+static void releaseClump(RpClump * clump)
+{
+	g_pcsAgcmResourceLoader->LockFrame();
+	if (RwFrameGetParent(RpClumpGetFrame(clump)))
+		RwFrameRemoveChild(RpClumpGetFrame(clump));
+	g_pcsAgcmResourceLoader->UnlockFrame();
+	g_pcsAgcmResourceLoader->AddDestroyClump(clump);
+}
+
+static void exportCharacter()
+{
+	AgcdCharacterTemplate* pstAgcdCharacterTemplate;
+	INT32 lIndex = 0;
+	for (AgpdCharacterTemplate* pstAgpdCharacterTemplate = g_pcsAgpmCharacter->GetTemplateSequence(&lIndex);
+		pstAgpdCharacterTemplate;
+		pstAgpdCharacterTemplate = g_pcsAgpmCharacter->GetTemplateSequence(&lIndex)) {
+		pstAgcdCharacterTemplate = g_pcsAgcmCharacter->GetTemplateData(pstAgpdCharacterTemplate);
+		if (!pstAgcdCharacterTemplate) {
+			OutputDebugStringA("Template not found\n");
+			continue;
+		}
+		AcuExportGLTF* exporter = new AcuExportGLTF;
+		if (exporter) {
+			exporter->ExportCharacter(g_pcsAgpmCharacter, pstAgpdCharacterTemplate->m_lID, 0, 0);
+			delete exporter;
+		}
+	}
+	//lIndex = 0;
+	//for (ApdObjectTemplate* pstAgpdObjectTemplate = g_pcsApmObject->GetObjectTemplateSequence(&lIndex);
+	//	pstAgpdObjectTemplate;
+	//	pstAgpdObjectTemplate = g_pcsApmObject->GetObjectTemplateSequence(&lIndex)) {
+	//	AgcdObjectTemplate* pstAgcdObjectTemplate = g_pcsAgcmObject->GetTemplateData(pstAgpdObjectTemplate);
+	//	if (!pstAgcdObjectTemplate)
+	//		continue;
+	//	AcuExportGLTF* exporter = new AcuExportGLTF;
+	//	if (exporter) {
+	//		exporter->ExportObject(g_pcsApmObject, pstAgpdObjectTemplate->m_lID);
+	//		delete exporter;
+	//	}
+	//}
+}
 
 BOOL MainWindow::LoadTemplates()
 {
@@ -1231,7 +1287,7 @@ BOOL MainWindow::LoadTemplates()
 
 	//ClearZpackCacheAll();
 	ClearZpackCache( L"ini.zp" );
-
+	//exportCharacter();
 	return TRUE;
 }
 

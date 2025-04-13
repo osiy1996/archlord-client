@@ -898,9 +898,9 @@ BOOL AgpmItem::StreamReadOneTemplate( char* pFileName, BOOL bDecryption )
 	}
 
 #ifdef _DEBUG
-	char strDebug[ 256 ] = { 0, };
-	sprintf_s( strDebug, 256, "Load ItemTemplate, TID = %d, Name = %s\n", ppdItemTemplate->m_lID, ppdItemTemplate->m_szName );
-	OutputDebugString( strDebug );
+	//char strDebug[ 256 ] = { 0, };
+	//sprintf_s( strDebug, 256, "Load ItemTemplate, TID = %d, Name = %s\n", ppdItemTemplate->m_lID, ppdItemTemplate->m_szName );
+	//OutputDebugString( strDebug );
 #endif
 	return TRUE;
 }
